@@ -28,9 +28,6 @@ class MainActivity : AppCompatActivity() {
             val yeniIntent = Intent(this,MainActivity2::class.java)
 
             yeniIntent.putExtra("user",user)
-            yeniIntent.putExtra("username",usName)
-            yeniIntent.putExtra("email",emailP)
-            yeniIntent.putExtra("city",cityD)
 
             startActivity(yeniIntent)
 
